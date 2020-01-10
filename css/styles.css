@@ -1,2 +1,190 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background-color: red; }
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #fff;
+  height: 10000px;
+  overflow: auto;
+  margin: 0;
+  letter-spacing: 1.5px;
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif; }
+
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%; }
+  header .title {
+    width: 100%;
+    position: relative; }
+  header .logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px; }
+  header .logo img {
+    width: 128px; }
+  header .title-logo {
+    font-weight: bold;
+    padding-top: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px; }
+  header .contactpc {
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-color: #da6b64;
+    color: #fff;
+    border-radius: 25px;
+    padding: 11px 40px;
+    margin-bottom: 10px; }
+
+.header-separated {
+  height: 102px; }
+
+.cover {
+  background-image: url("../images/main.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center; }
+
+.cover-text {
+  position: absolute;
+  top: 50px;
+  left: 250px; }
+  .cover-text p {
+    font-size: 24px; }
+  .cover-text .cover-text1 {
+    font-size: 14px; }
+
+.mainlogo {
+  width: 317px;
+  margin-bottom: 20px; }
+
+.conversion {
+  background-color: #ebb94d;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+  height: 461px;
+  color: #fff; }
+  .conversion .conversionbtn {
+    display: inline-block;
+    background-color: #da6b64;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    padding: 25px 50px;
+    margin: 10px 80px; }
+  .conversion .txtxs {
+    font-weight: 600; }
+
+.sns-list {
+  display: inline-block;
+  list-style: none;
+  justify-content: center; }
+  .sns-list .twitter {
+    background-color: #00aced;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .sns-list .facebook {
+    background-color: #3B5998;
+    padding-right: 5px;
+    padding-left: 5px; }
+
+code {
+  background-color: #f9f2f4;
+  color: #c7254e;
+  padding: 2px 4px;
+  font-size: 90%;
+  border-radius: 4px; }
+
+.introduction {
+  background-image: url("../images/introbottom.jpg");
+  height: 587px; }
+
+.yellow {
+  text-align: center;
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+  max-width: calc(100% - 40px); }
+  .yellow h2 {
+    padding: 20px 0;
+    font-size: 24px; }
+
+.yellow::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+  width: 50px;
+  height: 50px; }
+
+.yellow::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+  width: 50px;
+  height: 50px; }
+
+.content {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 16px; }
+
+.underline {
+  border-bottom: 4px solid #ebb94d; }
+
+.about {
+  background-color: #fef5e0;
+  text-align: center;
+  padding: 0 0 40px 0; }
+
+.circle {
+  color: #fff;
+  background-color: #ebb94d;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0; }
+
+.abouticon {
+  position: relative;
+  top: -40px; }
+
+.abouttitle p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 600; }
+
+.aboutbox {
+  display: inline-block;
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px solid #ebb94d; }
+
+.boxall {
+  display: flex; }
+
+.box {
+  padding: 10px; }
+
+.abouttext {
+  font-size: 16px;
+  font-weight: bold; }
