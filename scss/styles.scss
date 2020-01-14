@@ -12,7 +12,8 @@ body {
     overflow: auto;
     margin: 0;
     letter-spacing: 1.5px;
-    font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+    font-family: 
+    "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
 }
 
 header {
@@ -63,17 +64,24 @@ header {
       position: relative;
       text-align: center;
   }
+  .txt1 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+  
+  .txtm{
+        font-size: 16px;
+        font-weight: 600;
+      }
+  .txts {
+      font-size: 14px;
+      font-weight: 600;
+  }
   .cover-text {
       position: absolute;
       top: 50px;
       left: 250px;
-      p {
-        font-size: 24px;
-      }
-      .cover-text1{
-        font-size: 14px;
-        
-      }
+      
   }
    .mainlogo {
       width: 317px;
@@ -221,4 +229,119 @@ header {
 .abouttext {
   font-size: 16px;
   font-weight: bold;
+}
+
+.aboutsecond {
+  background-image: url("../images/aboutsecondbg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+  p,h2 {
+      color: #fff;
+  }
+}
+
+.yellowtext {
+    color: #ebb94d;
+}
+
+.slidebox  {
+    background-color: #fff;
+    width: 40%;
+    margin: 0 30% 20px ;
+    flex-direction: column;
+    padding: 30px 30px 20px;
+    border-radius: 5px;
+    p {
+    background-color: #ebb94d;
+    border-radius: 5px;
+}
+}
+.sidecontents p {
+    background-color: #fff;
+    color: #000000;
+  }
+
+.aboutthird {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #016ea9;
+    color: #fff;
+}
+.learning {
+    text-align: center;
+    padding: 40px 0;
+    .container{
+      display: flex;
+       padding: 40px 0;
+    }
+    .learningbox{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .learningbox img {
+        width: 180px;
+    }
+}
+
+.merit {
+    text-align: center;
+    background-color: #fef5e0;
+    padding: 30px 50px ;
+}
+
+.container {
+    margin-top: 40px;
+}
+.learnbox {
+    margin-bottom: 20px;
+    p {
+        margin: 8px 0;
+    }
+    .txts {
+    text-align: left;
+    font-weight: 300;
+    }
+}
+.learnfromfreelancer {
+    height: 180px;
+    background-image: url("../images/learnfromfreelancer.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+.learnfromprojects {
+    height: 180px;
+    background-image: url("../images/learnfromprojects.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+.actuallyfree {
+    height: 180px;
+    background-image: url("../images/actuallyfree.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.support {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 40px auto;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.meritbottomtxts {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
 }
