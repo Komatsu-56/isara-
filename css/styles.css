@@ -379,3 +379,199 @@ code {
 .answer {
   padding: 40px 0;
   text-align: center; }
+
+.client {
+  display: flex;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 20px 0; }
+
+.clientpicure-1 {
+  background-image: url("../images/take.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 257px;
+  width: 550px;
+  border: solid;
+  border-color: #ebb94d; }
+
+.clientpicure-2 {
+  background-image: url("../images/minami_sato.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 257px;
+  width: 490px;
+  border: solid;
+  border-color: #ebb94d; }
+
+.clientpicure-3 {
+  background-image: url("../images/asada.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 257px;
+  width: 545px;
+  border: solid;
+  border-color: #ebb94d; }
+
+.clientvoice {
+  text-align: left;
+  padding-left: 15px;
+  color: #777;
+  margin-top: 15px;
+  font-size: 18px; }
+  .clientvoice small {
+    text-decoration: underline; }
+
+.class {
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("../images/classbg.jpg");
+  background-position: center;
+  background-size: cover; }
+  .class .classbox {
+    padding: 40px 0;
+    max-width: 780px;
+    margin: 0 auto; }
+  .class .classlist {
+    margin-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .class .classwrap {
+    background-color: #fff;
+    border: 2px solid #016ea9;
+    padding: 0;
+    border-radius: 5px; }
+    .class .classwrap .txtm {
+      background-color: #016ea9;
+      padding: 15px; }
+
+.classbox ul {
+  padding: 0;
+  margin: 0; }
+
+.classbox ul li {
+  color: #000000;
+  padding: 10px;
+  border-bottom: 1px dotted #e5e5e5;
+  list-style: none; }
+
+.classbottom {
+  background-color: #016ea9;
+  padding: 40px;
+  color: #fff;
+  text-align: center; }
+  .classbottom .txtm {
+    margin: 0; }
+
+.flow {
+  padding: 20px 40px;
+  text-align: center; }
+
+.flowing {
+  max-width: 100%;
+  margin: 40px auto; }
+
+.flowbox {
+  max-width: calc(100% - 40px);
+  border-radius: 10px;
+  background-color: #fef5e0;
+  margin: 0 auto;
+  padding: 10px 45px;
+  display: flex; }
+  .flowbox p {
+    margin: 20px 0; }
+
+.flowleft {
+  padding: 20px; }
+  .flowleft .txtm {
+    font-size: 18px;
+    margin-bottom: 0; }
+
+.flowright {
+  text-align: left;
+  padding: 10px; }
+
+.flowline {
+  width: calc(100% - 300px); }
+
+img {
+  vertical-align: middle; }
+
+.bangkok {
+  color: #fff;
+  padding: 40px;
+  background-image: url("../images/bangkokbg.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -21px; }
+
+.bangkokdetail {
+  margin-left: 20px; }
+
+.bangkoklist {
+  margin: 20px 0; }
+
+.special {
+  background-color: #f7c23c;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: -24px; }
+
+.whitetxt {
+  color: #fff; }
+
+.specialpeople {
+  position: relative;
+  bottom: -58px;
+  background-color: #f7c23c;
+  width: 400px;
+  margin: 0 auto; }
+
+.specialbox {
+  margin-top: 40px;
+  padding: 40px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column; }
+
+.tokuten {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  padding: 0;
+  margin: 15px auto;
+  display: inline-block;
+  border-radius: 50%; }
+
+.tokutenbox {
+  padding: 15px;
+  height: 250px;
+  display: table-cell;
+  vertical-align: middle; }
+
+.specialdetail {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/specialdetail.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.message-container {
+  margin: 40px auto;
+  width: calc(100% - 40px); }
+  .message-container .learnbox {
+    padding: 20px; }
+  .message-container p {
+    text-align: left;
+    margin: 0 0 10px; }
+
+.contactform {
+  background-color: #ebb94d;
+  text-align: center;
+  padding: 40px 15%; }
+
+#OF_form1 {
+  width: 100%;
+  height: 55px; }
