@@ -126,11 +126,13 @@ header {
      background-color:#00aced ;
      padding-right: 5px;
      padding-left: 5px;
+     border-radius: 5px;
    }
    .facebook {
      background-color: #3B5998 ;
      padding-right: 5px;
      padding-left: 5px;
+     border-radius: 5px;
    }
    
   }
@@ -654,9 +656,102 @@ img {
   background-color: #ebb94d;
   text-align: center;
   padding: 40px 15%;
+  height: 700px;
 }
 
-#OF_form1 {
+form#OF_form1,input#seimei1, input#seimei2,input#mail,textarea  {
   width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
   height: 55px;
+}
+
+input#OF_submit_btn1 {
+  background-color: #da6b64;
+  color: #fff;
+  width: 100%;
+  padding: 10px 80px;
+  border-radius: 50px;
+  font-size:24px;
+}
+
+.question {
+  padding: 40px 10%;
+  text-align: center;
+  .txt1 {
+    margin-bottom: 40px;
+  }
+}
+
+.questionlist {
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  text-align: left;
+}
+.panelgroup {
+  margin-bottom: 20px;
+}
+
+.fa-question-circle {
+color: #23527c;
+}
+.panel {
+  border-color: #ddd;
+  border-radius: 5px;
+
+  .panelheading{
+    padding: 0 20px;
+    border: 1px solid transparent;
+    border-color: #ddd;
+    position: relative;
+  }
+}
+  .panelheading::after {
+    content: "";
+    position: absolute;
+    border-right: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+    width: 10px;
+    right: 30px;
+    height: 10px;
+    top: 30px;
+   transform: rotate(-135deg);
+  }
+   .panelheading.angle-up::after {
+    content: "";
+    position: absolute;
+    border-right: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+    width: 10px;
+   right: 30px;
+   height: 10px;
+   top: 30px;
+   transform: rotate(45deg);
+  }
+  
+  .panelheading:active {
+    text-decoration: underline;
+  }
+  .panelbody {
+    padding: 20px;
+}
+
+footer {
+  background-color: #ececec;
+}
+
+.footerwrap {
+  padding: 40px 15px 20px 15px;
+  text-align: center;
+  .sns-list {
+    color: #fff;
+  }
+}
+
+.copyright {
+  font-size: 10px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
