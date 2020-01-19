@@ -3,14 +3,24 @@ $(function(){
   $('.panelbody').hide();
   
   $('.panelheading').click(function(){
-   $(this).toggleClass('angle-up');
+   $(this).toggleClass('angle-up active');
    $(this).next('.panelbody').slideToggle();
-
-   if($(this).hasClass("active")){ 
-    $(this).removeClass("active");
-  }else{
-    $(this).addClass("active");
-  }
-    
+   
 });
+
+   var topBtn = $('.pagetop');
+      topBtn.hide();
+   $(window).scroll(function(){
+      if($(this).scrollTop() >150) {
+          topBtn.fadeIn();
+      } else {
+          topBtn.fadeOut();
+      }
+   });
+   topBtn.click(function(){
+       $('body,html').animate({
+           scrollTop: 0
+       },500);
+       return false;
+   });
 });

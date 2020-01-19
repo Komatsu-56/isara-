@@ -658,3 +658,14 @@ footer {
   font-weight: 300;
   margin-bottom: 10px;
   padding-bottom: 5px; }
+
+.pagetop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 90px;
+  right: 50px;
+  background-color: #ececec;
+  padding: 20px; }
+
+.fa-chevron-up {
+  font-size: 30px; }
