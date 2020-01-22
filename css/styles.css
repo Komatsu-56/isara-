@@ -17,16 +17,19 @@ header {
   position: fixed;
   z-index: 10;
   background-color: #fff;
-  width: 100%; }
+  width: 100%;
+  height: 75px;
+  margin-top: -25px; }
   header .title {
     width: 100%;
     position: relative; }
   header .logo {
     float: left;
     margin-top: 10px;
-    margin-left: 20px; }
+    margin-left: 10px; }
   header .logo img {
-    width: 128px; }
+    width: 128px;
+    padding-bottom: 20px; }
   header .title-logo {
     font-weight: bold;
     padding-top: 20px;
@@ -35,20 +38,19 @@ header {
     margin-left: 5px; }
   header .contactpc {
     float: right;
-    margin-right: 40px;
-    margin-top: 20px;
+    margin-right: 15px;
     background-color: #da6b64;
     color: #fff;
     border-radius: 25px;
-    padding: 11px 40px;
-    margin-bottom: 10px; }
+    padding: 2px 45px;
+    margin-top: 15px; }
 
 .header-separated {
-  height: 102px; }
+  height: 50px; }
 
 .cover {
   background-image: url("../images/main.jpg");
-  height: 500px;
+  height: 520px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -73,19 +75,19 @@ header {
 
 .cover-text {
   position: absolute;
-  top: 50px;
-  left: 250px; }
+  top: 75px;
+  left: 240px;
+  line-height: 1; }
 
 .mainlogo {
   width: 317px;
-  margin-bottom: 20px; }
+  margin-top: -10px; }
 
 .conversion {
   background-color: #ebb94d;
-  padding: 30px 0;
+  padding: 10px 0 40px 0;
   text-align: center;
   width: 100%;
-  height: 461px;
   color: #fff; }
   .conversion .conversionbtn {
     display: inline-block;
@@ -93,8 +95,8 @@ header {
     border-radius: 50px;
     text-decoration: none;
     color: #fff;
-    padding: 25px 50px;
-    margin: 10px 80px; }
+    padding: 15px 200px;
+    margin: 10px 40px; }
   .conversion .txtxs {
     font-weight: 600; }
 
@@ -104,13 +106,13 @@ header {
   justify-content: center; }
   .sns-list .twitter {
     background-color: #00aced;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 5px 12px;
+    font-size: 5px;
     border-radius: 5px; }
   .sns-list .facebook {
     background-color: #3B5998;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 5px 12px;
+    font-size: 5px;
     border-radius: 5px; }
 
 code {
@@ -122,16 +124,19 @@ code {
 
 .introduction {
   background-image: url("../images/introbottom.jpg");
-  height: 587px; }
+  background-size: cover;
+  background-position: center;
+  margin-top: 42px;
+  padding-bottom: 40px; }
 
 .yellow {
   text-align: center;
   position: relative;
-  height: 100px;
+  height: 120px;
   margin: 0 auto;
   max-width: calc(100% - 40px); }
   .yellow h2 {
-    padding: 20px 0;
+    padding: 35px 0 0 50px;
     font-size: 24px; }
 
 .yellow::before {
@@ -147,17 +152,22 @@ code {
 .yellow::after {
   position: absolute;
   content: "";
-  bottom: 0;
+  top: 100px;
   right: 0;
   border-bottom: 4px solid #ebb94d;
   border-right: 4px solid #ebb94d;
   width: 50px;
   height: 50px; }
 
+.merit .yellow {
+  margin: 0 auto -10px; }
+
+.merit .yellow::after {
+  top: 50px; }
+
 .content {
   text-align: center;
-  padding: 40px 0;
-  font-size: 16px; }
+  padding: 10px 0 150px 0; }
 
 .underline {
   border-bottom: 4px solid #ebb94d; }
@@ -165,7 +175,7 @@ code {
 .about {
   background-color: #fef5e0;
   text-align: center;
-  padding: 0 0 40px 0; }
+  padding: 0 0 60px 0; }
 
 .circle {
   color: #fff;
@@ -183,20 +193,26 @@ code {
   position: relative;
   top: -40px; }
 
-.abouttitle p {
-  margin-top: 40px;
-  font-size: 16px;
-  font-weight: 600; }
+.abouttitle {
+  margin-top: -30px; }
+  .abouttitle p {
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 600; }
 
 .aboutbox {
   display: inline-block;
   background-color: #fff;
-  margin: 30px auto;
-  padding: 30px;
-  border: 2px solid #ebb94d; }
+  margin: 15px auto;
+  border: 2px solid #ebb94d;
+  max-width: calc(100% - 40px);
+  padding: 10px 80px 15px; }
 
 .boxall {
-  display: flex; }
+  display: flex;
+  padding: 10px 50px; }
+  .boxall .txts {
+    font-size: 10px; }
 
 .box {
   padding: 10px; }
@@ -209,10 +225,12 @@ code {
   background-image: url("../images/aboutsecondbg.jpg");
   background-size: cover;
   background-position: center;
-  padding: 40px 0;
+  padding: 45px 0;
   text-align: center; }
   .aboutsecond p, .aboutsecond h2 {
     color: #fff; }
+  .aboutsecond .container {
+    margin-top: 25px; }
 
 .yellowtext {
   color: #ebb94d; }
@@ -222,18 +240,21 @@ code {
   width: 40%;
   margin: 0 30% 20px;
   flex-direction: column;
-  padding: 30px 30px 20px;
+  padding: 15px 25px 15px;
   border-radius: 5px; }
   .slidebox p {
     background-color: #ebb94d;
     border-radius: 5px; }
+
+.sidecontents {
+  margin-top: 35px; }
 
 .sidecontents p {
   background-color: #fff;
   color: #000000; }
 
 .aboutthird {
-  padding: 40px 0;
+  padding: 23px 0;
   text-align: center;
   background-color: #016ea9;
   color: #fff; }
@@ -259,7 +280,7 @@ code {
   margin-top: 40px; }
 
 .learnbox {
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
   .learnbox p {
     margin: 8px 0; }
   .learnbox .txts {
@@ -308,7 +329,7 @@ code {
   background-position: center;
   background-size: cover;
   color: #fff;
-  padding: 50px; }
+  padding: 85px 50px 50px 50px; }
 
 .teacherbox {
   position: relative; }
@@ -321,6 +342,10 @@ code {
   text-align: left; }
 
 .detail {
+  padding: 30px;
+  border: 3px solid #fff; }
+
+.detail2 {
   padding: 40px;
   border: 3px solid #fff; }
 
@@ -379,7 +404,7 @@ code {
   top: 85px; }
 
 .answer {
-  padding: 40px 0;
+  padding: 15px 0 60px;
   text-align: center; }
 
 .client {
@@ -517,8 +542,10 @@ img {
 .special {
   background-color: #f7c23c;
   text-align: center;
-  padding: 40px;
-  margin-bottom: -24px; }
+  padding: 40px; }
+
+.specialdetail .whitebrackets {
+  padding: 31px 30px; }
 
 .whitetxt {
   color: #fff; }
@@ -553,15 +580,21 @@ img {
   vertical-align: middle; }
 
 .specialdetail {
-  padding: 40px;
+  padding: 40px 40px 60px;
   text-align: center;
   color: #fff;
   background-image: url("../images/specialdetail.jpg");
   background-position: center;
   background-size: cover; }
 
+.learningo {
+  text-align: center;
+  padding: 40px 0; }
+  .learningo .txt1 {
+    margin-bottom: 40px; }
+
 .message-container {
-  margin: 40px auto;
+  margin: 40px auto -20px;
   width: calc(100% - 40px); }
   .message-container .learnbox {
     padding: 20px; }
@@ -572,8 +605,11 @@ img {
 .contactform {
   background-color: #ebb94d;
   text-align: center;
-  padding: 40px 15%;
+  padding: 40px 12%;
   height: 700px; }
+
+form#OF_form1 textarea {
+  height: 100px; }
 
 form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   width: 100%;
@@ -581,6 +617,9 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   margin-bottom: 25px;
   border-radius: 5px;
   height: 55px; }
+
+form#OF_form1 textarea {
+  height: 100px; }
 
 input#OF_submit_btn1 {
   background-color: #da6b64;
@@ -591,7 +630,7 @@ input#OF_submit_btn1 {
   font-size: 24px; }
 
 .question {
-  padding: 40px 10%;
+  padding: 40px;
   text-align: center; }
   .question .txt1 {
     margin-bottom: 40px; }
@@ -616,6 +655,9 @@ input#OF_submit_btn1 {
     border-color: #ddd;
     position: relative; }
 
+.panelheading:hover {
+  text-decoration: underline; }
+
 .panelheading::after {
   content: "";
   position: absolute;
@@ -638,9 +680,6 @@ input#OF_submit_btn1 {
   top: 30px;
   transform: rotate(45deg); }
 
-.panelheading:active {
-  text-decoration: underline; }
-
 .panelbody {
   padding: 20px; }
 
@@ -662,8 +701,8 @@ footer {
 .pagetop {
   cursor: pointer;
   position: fixed;
-  bottom: 90px;
-  right: 50px;
+  bottom: 80px;
+  right: 5px;
   background-color: #ececec;
   padding: 20px; }
 

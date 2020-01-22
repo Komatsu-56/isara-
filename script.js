@@ -3,7 +3,8 @@ $(function(){
   $('.panelbody').hide();
   
   $('.panelheading').click(function(){
-   $(this).toggleClass('angle-up active');
+   $(this).toggleClass('angle-up ');
+   
    $(this).next('.panelbody').slideToggle();
    
 });
