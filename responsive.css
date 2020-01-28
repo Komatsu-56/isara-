@@ -519,15 +519,12 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 769px)
+@media only screen and (max-width: 991px) and (min-width: 769px)
 {
     
  .cover-text {
   left: 335px;
  }
-      
-    
-    
     
 .contactsp {
     display: none;
