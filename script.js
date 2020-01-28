@@ -9,6 +9,15 @@ $(function(){
    
 });
 
+ $('.panelbody1').hide();
+  
+  $('.panelheading').click(function(){
+   $(this).toggleClass('angle-up ');
+   
+   $(this).next('.panelbody1').slideToggle();
+   
+});
+
    var topBtn = $('.pagetop');
       topBtn.hide();
    $(window).scroll(function(){
@@ -24,4 +33,15 @@ $(function(){
        },500);
        return false;
    });
+   
+   
+   $('.startpoint').click(function(){
+	    	var contactPadding = 40;
+        var targetTop = $('.contactform').offset().top;
+        $('html,body').animate({
+            scrollTop: targetTop-contactPadding
+        }, 500);
+        return false;
+    });
+   
 });

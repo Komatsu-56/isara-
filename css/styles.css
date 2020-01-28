@@ -19,7 +19,7 @@ header {
   background-color: #fff;
   width: 100%;
   height: 75px;
-  margin-top: -25px; }
+  margin-top: -21px; }
   header .title {
     width: 100%;
     position: relative; }
@@ -42,19 +42,32 @@ header {
     background-color: #da6b64;
     color: #fff;
     border-radius: 25px;
-    padding: 2px 45px;
+    padding: 0px 40px;
     margin-top: 15px; }
+  header .contactsp {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 11px 11px;
+    background-color: #da6b64; }
+
+.brsp {
+  display: none; }
 
 .header-separated {
   height: 50px; }
 
 .cover {
   background-image: url("../images/main.jpg");
-  height: 520px;
+  height: 505px;
   background-size: cover;
   background-position: center;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  padding-top: 75px; 
+  margin-bottom: -13px;
+   }
 
 .txt1 {
   font-size: 24px;
@@ -73,19 +86,14 @@ header {
   font-weight: 300;
   letter-spacing: 0; }
 
-.cover-text {
-  position: absolute;
-  top: 75px;
-  left: 240px;
-  line-height: 1; }
 
 .mainlogo {
   width: 317px;
-  margin-top: -10px; }
+  margin-bottom: 15px; }
 
 .conversion {
   background-color: #ebb94d;
-  padding: 10px 0 40px 0;
+  padding: 0;
   text-align: center;
   width: 100%;
   color: #fff; }
@@ -95,15 +103,18 @@ header {
     border-radius: 50px;
     text-decoration: none;
     color: #fff;
-    padding: 15px 200px;
+    padding: 10px 280px;
     margin: 10px 40px; }
   .conversion .txtxs {
-    font-weight: 600; }
+    font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 9px; }
 
 .sns-list {
   display: inline-block;
   list-style: none;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 25px; }
   .sns-list .twitter {
     background-color: #00aced;
     padding: 5px 12px;
@@ -127,16 +138,19 @@ code {
   background-size: cover;
   background-position: center;
   margin-top: 42px;
-  padding-bottom: 40px; }
+  padding-bottom: 16px; }
+  .introduction .txtm {
+    font-size: 12px; }
 
 .yellow {
   text-align: center;
   position: relative;
+  width: 860px;
   height: 120px;
   margin: 0 auto;
   max-width: calc(100% - 40px); }
   .yellow h2 {
-    padding: 35px 0 0 50px;
+    padding: 35px 0 0 0px;
     font-size: 24px; }
 
 .yellow::before {
@@ -152,7 +166,7 @@ code {
 .yellow::after {
   position: absolute;
   content: "";
-  top: 100px;
+  bottom: 15px;
   right: 0;
   border-bottom: 4px solid #ebb94d;
   border-right: 4px solid #ebb94d;
@@ -167,7 +181,7 @@ code {
 
 .content {
   text-align: center;
-  padding: 10px 0 150px 0; }
+  padding: 5px 0 170px 0; }
 
 .underline {
   border-bottom: 4px solid #ebb94d; }
@@ -194,19 +208,20 @@ code {
   top: -40px; }
 
 .abouttitle {
-  margin-top: -30px; }
+  margin-top: -20px; }
   .abouttitle p {
     margin-top: 60px;
     font-size: 16px;
     font-weight: 600; }
+  .abouttitle .yellow::after {
+    bottom: -15px; }
 
 .aboutbox {
   display: inline-block;
   background-color: #fff;
-  margin: 15px auto;
   border: 2px solid #ebb94d;
   max-width: calc(100% - 40px);
-  padding: 10px 80px 15px; }
+  padding: 10px 130px 0; }
 
 .boxall {
   display: flex;
@@ -215,7 +230,7 @@ code {
     font-size: 10px; }
 
 .box {
-  padding: 10px; }
+  padding: 20px 20px 5px; }
 
 .abouttext {
   font-size: 16px;
@@ -229,8 +244,13 @@ code {
   text-align: center; }
   .aboutsecond p, .aboutsecond h2 {
     color: #fff; }
+  .aboutsecond .txtm {
+    font-size: 10px; }
   .aboutsecond .container {
     margin-top: 25px; }
+
+.aboutthird .txtm {
+  font-size: 12px; }
 
 .yellowtext {
   color: #ebb94d; }
@@ -267,25 +287,30 @@ code {
     padding: 40px 0; }
   .learning .learningbox {
     margin-right: 15px;
-    margin-left: 15px; }
+    margin-left: 15px;
+    padding: 0 15px; }
   .learning .learningbox img {
     width: 180px; }
 
 .merit {
   text-align: center;
   background-color: #fef5e0;
-  padding: 30px 50px; }
+  padding: 30px 55px; }
 
 .container {
-  margin-top: 40px; }
+  margin-top: 35px; }
 
 .learnbox {
-  margin-bottom: 50px; }
+  margin-bottom: 30px;
+  max-width: 100%; }
   .learnbox p {
-    margin: 8px 0; }
+    margin: 8px 25px; }
+  .learnbox .txtm {
+    font-size: 12px; }
   .learnbox .txts {
     text-align: left;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 10px; }
 
 .learnfromfreelancer {
   height: 180px;
@@ -313,13 +338,17 @@ code {
 
 .support {
   background-color: #fff;
-  padding: 40px 20px;
-  margin: 40px auto;
+  padding: 0 0 50px;
+  margin: 70px auto 40px;
   border: 2px solid #ebb94d;
   border-radius: 5px; }
+  .support .txtm {
+    font-size: 12px; }
+  .support .txts {
+    font-size: 8px; }
 
 .meritbottomtxts {
-  font-size: 12px;
+  font-size: 1px;
   font-weight: 300;
   letter-spacing: 0; }
 
@@ -329,7 +358,7 @@ code {
   background-position: center;
   background-size: cover;
   color: #fff;
-  padding: 85px 50px 50px 50px; }
+  padding: 80px 50px 50px 50px; }
 
 .teacherbox {
   position: relative; }
@@ -337,20 +366,24 @@ code {
     position: relative;
     bottom: -35px;
     border-radius: 50%; }
+  .teacherbox .txts {
+    font-size: 14px; }
 
 .texleft {
   text-align: left; }
 
 .detail {
-  padding: 30px;
-  border: 3px solid #fff; }
+  padding: 30px 30px 0;
+  border: 3px solid #fff;
+  margin: 0 50px 0; }
 
 .detail2 {
-  padding: 40px;
-  border: 3px solid #fff; }
+  padding: 30px 30px 0;
+  border: 3px solid #fff;
+  margin: 0 50px 0; }
 
 .why {
-  padding: 40px 0;
+  padding: 40px 0 15px;
   text-align: center;
   background-color: #ebb94d;
   color: #fff; }
@@ -401,10 +434,10 @@ code {
   width: 0;
   border: 25px solid transparent;
   border-top-color: #ebb94d;
-  top: 85px; }
+  top: 65px; }
 
 .answer {
-  padding: 15px 0 60px;
+  padding: 15px 0 35px;
   text-align: center; }
 
 .client {
@@ -417,8 +450,8 @@ code {
   background-image: url("../images/take.jpg");
   background-position: center;
   background-size: cover;
-  height: 257px;
-  width: 550px;
+  height: 300px;
+  width: 520px;
   border: solid;
   border-color: #ebb94d; }
 
@@ -426,8 +459,8 @@ code {
   background-image: url("../images/minami_sato.jpg");
   background-position: center;
   background-size: cover;
-  height: 257px;
-  width: 490px;
+  height: 300px;
+  width: 480px;
   border: solid;
   border-color: #ebb94d; }
 
@@ -435,8 +468,8 @@ code {
   background-image: url("../images/asada.jpg");
   background-position: center;
   background-size: cover;
-  height: 257px;
-  width: 545px;
+  height: 300px;
+  width: 540px;
   border: solid;
   border-color: #ebb94d; }
 
@@ -444,7 +477,7 @@ code {
   text-align: left;
   padding-left: 15px;
   color: #777;
-  margin-top: 15px;
+  margin-top: -10px;
   font-size: 18px; }
   .clientvoice small {
     text-decoration: underline; }
@@ -457,21 +490,25 @@ code {
   background-position: center;
   background-size: cover; }
   .class .classbox {
-    padding: 40px 0;
     max-width: 780px;
     margin: 0 auto; }
+    .class .classbox .txts {
+      font-size: 10px; }
   .class .classlist {
     margin-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px; }
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-bottom: -30px; }
   .class .classwrap {
     background-color: #fff;
     border: 2px solid #016ea9;
     padding: 0;
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin: 60px; }
     .class .classwrap .txtm {
       background-color: #016ea9;
-      padding: 15px; }
+      padding: 15px;
+      margin-top: -16px; }
 
 .classbox ul {
   padding: 0;
@@ -485,7 +522,7 @@ code {
 
 .classbottom {
   background-color: #016ea9;
-  padding: 40px;
+  padding: 40px 40px 25px;
   color: #fff;
   text-align: center; }
   .classbottom .txtm {
@@ -510,9 +547,9 @@ code {
     margin: 20px 0; }
 
 .flowleft {
-  padding: 20px; }
+  padding: 20px 45px 20px 35px; }
   .flowleft .txtm {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 0; }
 
 .flowright {
@@ -531,18 +568,36 @@ img {
   background-image: url("../images/bangkokbg.jpg");
   background-position: center;
   background-size: cover;
+  margin-bottom: 10px; }
+
+.bangkok1 {
+  color: #fff;
+  padding: 40px;
+  background-image: url("../images/bangkokbgsp.jpg");
+  background-position: center;
+  background-size: cover;
   margin-bottom: -21px; }
 
 .bangkokdetail {
   margin-left: 20px; }
+  .bangkokdetail .txtxs {
+    font-size: 8px; }
+  .bangkokdetail .txtm {
+    font-size: 8px; }
 
 .bangkoklist {
   margin: 20px 0; }
+  .bangkoklist .txts {
+    font-size: 10px; }
+  .bangkoklist p {
+    font-size: 10px; }
 
 .special {
   background-color: #f7c23c;
   text-align: center;
   padding: 40px; }
+  .special .txts {
+    font-size: 11px; }
 
 .specialdetail .whitebrackets {
   padding: 31px 30px; }
@@ -552,7 +607,7 @@ img {
 
 .specialpeople {
   position: relative;
-  bottom: -58px;
+  bottom: -80px;
   background-color: #f7c23c;
   width: 400px;
   margin: 0 auto; }
@@ -580,32 +635,38 @@ img {
   vertical-align: middle; }
 
 .specialdetail {
-  padding: 40px 40px 60px;
+  padding: 30px 40px 80px;
   text-align: center;
   color: #fff;
   background-image: url("../images/specialdetail.jpg");
   background-position: center;
   background-size: cover; }
+  .specialdetail .txtm {
+    font-size: 12px; }
 
 .learningo {
   text-align: center;
-  padding: 40px 0; }
+  padding: 40px 0 110px; }
   .learningo .txt1 {
     margin-bottom: 40px; }
+  .learningo .txtm {
+    font-size: 10px; }
 
 .message-container {
   margin: 40px auto -20px;
   width: calc(100% - 40px); }
   .message-container .learnbox {
-    padding: 20px; }
+    padding: 5px;
+    margin-top: 55px; }
   .message-container p {
     text-align: left;
-    margin: 0 0 10px; }
+    margin: 0 0 10px;
+    font-size: 11px; }
 
 .contactform {
   background-color: #ebb94d;
   text-align: center;
-  padding: 40px 12%;
+  padding: 40px 14%;
   height: 700px; }
 
 form#OF_form1 textarea {
@@ -639,9 +700,13 @@ input#OF_submit_btn1 {
   max-width: calc(100% - 40px);
   margin: 0 auto;
   text-align: left; }
+  .questionlist .txtm {
+    font-size: 12px; }
+  .questionlist .txts {
+    font-size: 10px; }
 
 .panelgroup {
-  margin-bottom: 20px; }
+  margin-bottom: 5px; }
 
 .fa-question-circle {
   color: #23527c; }
@@ -653,7 +718,8 @@ input#OF_submit_btn1 {
     padding: 0 20px;
     border: 1px solid transparent;
     border-color: #ddd;
-    position: relative; }
+    position: relative;
+    border-radius: 5px; }
 
 .panelheading:hover {
   text-decoration: underline; }
@@ -667,7 +733,7 @@ input#OF_submit_btn1 {
   right: 30px;
   height: 10px;
   top: 30px;
-  transform: rotate(-135deg); }
+  transform: rotate(45deg); }
 
 .panelheading.angle-up::after {
   content: "";
@@ -678,13 +744,15 @@ input#OF_submit_btn1 {
   right: 30px;
   height: 10px;
   top: 30px;
-  transform: rotate(45deg); }
+  transform: rotate(-135deg); }
 
 .panelbody {
-  padding: 20px; }
+  padding: 35px;
+  margin-top: -20px; }
 
 footer {
-  background-color: #ececec; }
+  background-color: #ececec;
+  padding-top: 2px; }
 
 .footerwrap {
   padding: 40px 15px 20px 15px;
@@ -693,10 +761,13 @@ footer {
     color: #fff; }
 
 .copyright {
-  font-size: 10px;
+  font-size: 1px;
   font-weight: 300;
   margin-bottom: 10px;
   padding-bottom: 5px; }
+
+.copyright1 {
+  font-size: 1px; }
 
 .pagetop {
   cursor: pointer;

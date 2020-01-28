@@ -22,7 +22,7 @@ header {
     background-color: #fff;
     width: 100%;
     height: 75px;
-    margin-top: -25px;
+    margin-top: -21px;
   .title {
     width: 100%;
     
@@ -46,25 +46,45 @@ header {
        margin-left: 5px;
    }
   .contactpc {
-    float: right;
+   float: right;
     margin-right: 15px;
     background-color: #da6b64;
     color: #fff;
     border-radius: 25px;
-    padding: 2px 45px;
+    padding: 0px 40px;
     margin-top: 15px;
   }
+  .contactsp {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 11px 11px;
+    background-color: #da6b64;
+    
+    }
+  }
+
+.brsp {
+    display: none;
 }
+    
 .header-separated {
   height: 50px;
 }
 .cover {
       background-image: url("../images/main.jpg");
-      height: 520px;
+      height: 505px;
       background-size: cover;
       background-position: center;
       position: relative;
       text-align: center;
+      padding-top: 75px; 
+      margin-bottom: -13px;
+}
+      img {
+        display: table;
+      }
   }
   .txt1 {
         font-size: 24px;
@@ -85,22 +105,22 @@ header {
     font-weight: 300;
     letter-spacing: 0;
 }
+
+  .cover-text1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
   
-  .cover-text {
-      position: absolute;
-      top: 75px;
-      left: 240px;
-      line-height: 1;
-      
-  }
    .mainlogo {
       width: 317px;
-      margin-top: -10px;
       
+      margin-bottom: 15px;
   }
   .conversion {
     background-color: #ebb94d;
-    padding: 10px 0 40px 0;
+    padding: 0;
     text-align: center;
     width: 100%;
     
@@ -111,11 +131,13 @@ header {
       border-radius: 50px;
       text-decoration: none;
       color: #fff;
-      padding: 15px 200px;
+      padding: 10px 280px;
       margin:  10px 40px;
     }
      .txtxs {
     font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 9px;
   }
     
     
@@ -125,6 +147,7 @@ header {
       display: inline-block;
       list-style: none;
       justify-content: center;
+      padding-bottom: 25px;
        .twitter {
      background-color:#00aced ;
      padding: 5px 12px;
@@ -151,18 +174,21 @@ header {
     background-size: cover;
     background-position: center;
    margin-top: 42px;
-   padding-bottom: 40px;
-   
+   padding-bottom: 16px;
+   .txtm {
+       font-size: 12px;
+   }
  } 
  
  .yellow  {
    text-align: center;
    position: relative;
+   width: 860px;
    height: 120px;
    margin: 0 auto;
    max-width: calc(100% - 40px);
    h2 {
-     padding: 35px 0 0 50px;
+     padding: 35px 0 0 0px;
      font-size: 24px;
      
    }
@@ -181,7 +207,7 @@ header {
  .yellow::after {
   position: absolute;
   content: "";
-  top: 100px;
+  bottom: 15px;
   right: 0;
   border-bottom: 4px solid #ebb94d;
   border-right: 4px solid #ebb94d;
@@ -197,7 +223,7 @@ header {
 }
  .content {
    text-align: center;
-   padding: 10px 0 150px 0;
+   padding: 5px 0 170px 0;
  }
  .underline {
    border-bottom: 4px solid #ebb94d;
@@ -229,20 +255,23 @@ header {
 }
 
 .abouttitle
-{margin-top: -30px;
+{margin-top: -20px;
   p {
   margin-top: 60px;
   font-size: 16px;
   font-weight: 600;
-}
+ }
+ .yellow::after {
+   bottom: -15px;
+ }
 }
 .aboutbox {
   display: inline-block;
   background-color: #fff;
-  margin: 15px auto;
+ 
   border: 2px solid #ebb94d;
   max-width: calc(100% - 40px);
-  padding: 10px 80px 15px;
+  padding: 10px 130px 0;
 }
 .boxall {
  display: flex;
@@ -252,7 +281,7 @@ header {
  }
 }
 .box {
-  padding: 10px;
+  padding: 20px 20px 5px;
 }
 .abouttext {
   font-size: 16px;
@@ -268,11 +297,17 @@ header {
   p,h2 {
       color: #fff;
   }
+  .txtm{
+      font-size: 10px;
+  }
   .container{
     margin-top: 25px;
   }
 }
 
+.aboutthird .txtm {
+  font-size: 12px;
+}
 
 
 .yellowtext {
@@ -314,6 +349,7 @@ header {
     .learningbox{
         margin-right: 15px;
         margin-left: 15px;
+        padding: 0 15px;
     }
     .learningbox img {
         width: 180px;
@@ -323,20 +359,26 @@ header {
 .merit {
     text-align: center;
     background-color: #fef5e0;
-    padding: 30px 50px ;
+    padding: 30px 55px ;
 }
 
 .container {
-    margin-top: 40px;
+    margin-top: 35px;
 }
 .learnbox {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    max-width: 100%;
     p {
-        margin: 8px 0;
+        margin: 8px 25px;
     }
+    .txtm {
+      font-size: 12px;
+    }
+    
     .txts {
     text-align: left;
     font-weight: 300;
+    font-size: 10px;
     }
 }
 .learnfromfreelancer {
@@ -369,15 +411,21 @@ header {
 
 .support {
     background-color: #fff;
-    padding: 40px 20px;
-    margin: 40px auto;
+    padding: 0 0 50px;
+    margin: 70px auto 40px;
     border: 2px solid #ebb94d;
     border-radius: 5px;
+    .txtm {
+      font-size: 12px;
+    }
+    .txts {
+      font-size: 8px;
+    }
 }
 
 
 .meritbottomtxts {
-    font-size: 12px;
+    font-size: 1px;
     font-weight: 300;
     letter-spacing: 0;
 }
@@ -387,7 +435,7 @@ header {
     background-position: center;
     background-size: cover;
     color: #fff;
-    padding:  85px 50px 50px 50px;
+    padding:  80px 50px 50px 50px;
 }
 .teacherbox {
     position: relative;
@@ -396,21 +444,26 @@ header {
      bottom: -35px;
      border-radius: 50%;
     }
+    .txts{
+      font-size: 12px;
+    }
 }
 .texleft {
     text-align: left;
 }
 .detail {
-    padding: 30px;
+    padding: 30px 
     border: 3px solid #fff;
+    margin: 0 50px 0;
 }
 .detail2 {
-    padding: 40px;
+    padding: 30px ;
     border: 3px solid #fff;
+    margin: 0 50px 0;
 }
 
 .why {
-    padding: 40px 0;
+    padding: 40px 0 15px;
     text-align: center;
     background-color: #ebb94d;
     color: #fff;
@@ -463,10 +516,10 @@ header {
     width: 0;
     border: 25px solid transparent;
     border-top-color: #ebb94d;
-    top: 85px;
+    top: 65px;
 }
 .answer {
-  padding: 15px 0 60px;
+  padding: 15px 0 35px;
   text-align: center;
 }
 
@@ -480,8 +533,8 @@ header {
 background-image: url("../images/take.jpg");
 background-position: center;
 background-size: cover;
-height: 257px;
-width: 550px;
+height: 300px;
+width: 520px;
 border: solid;
 border-color: #ebb94d;
 }
@@ -489,8 +542,8 @@ border-color: #ebb94d;
 background-image: url("../images/minami_sato.jpg");
 background-position: center;
 background-size: cover;
-height: 257px;
-width: 490px;
+height: 300px;
+width: 480px;
 border: solid;
 border-color: #ebb94d;
 }
@@ -498,8 +551,8 @@ border-color: #ebb94d;
 background-image: url("../images/asada.jpg");
 background-position: center;
 background-size: cover;
-height: 257px;
-width: 545px;
+height: 300px;
+width: 540px;
 border: solid;
 border-color: #ebb94d;
 }
@@ -507,7 +560,7 @@ border-color: #ebb94d;
   text-align:  left;
   padding-left: 15px;
   color: #777;
-  margin-top: 15px;
+  margin-top: -10px;
   font-size: 18px;
    small {
      text-decoration: underline;
@@ -522,23 +575,28 @@ border-color: #ebb94d;
   background-position: center;
   background-size: cover;
   .classbox{
-    padding: 40px 0;
     max-width: 780px;
     margin: 0 auto;
+    .txts {
+      font-size: 10px;
+    }
   }
   .classlist {
     margin-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-bottom: -30px;
   }
   .classwrap {
     background-color: #fff;
     border: 2px solid #016ea9;
     padding: 0;
     border-radius: 5px;
+    margin: 60px;
     .txtm {
       background-color: #016ea9;
       padding: 15px;
+      margin-top: -16px;
     }
   }
 }
@@ -555,7 +613,7 @@ border-color: #ebb94d;
     
 .classbottom {
   background-color: #016ea9;
-  padding: 40px;
+  padding: 40px 40px 25px;
   color: #fff;
   text-align: center;
   .txtm {
@@ -582,12 +640,13 @@ border-color: #ebb94d;
   p {
     margin: 20px 0;
   }
+
 }
 .flowleft {
-  padding: 20px;
+  padding: 20px 45px 20px 35px;
   
   .txtm {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 0;
   }
  
@@ -601,30 +660,55 @@ border-color: #ebb94d;
 }
 img {
     vertical-align: middle;
+    
 }
 
 .bangkok {
   color: #fff;
   padding: 40px;
-  background-image: url("../images/bangkokbg.jpg");
+ background-image: url("../images/bangkokbg.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.bangkok1 {
+  color: #fff;
+  padding: 40px;
+ background-image: url("../images/bangkokbgsp.jpg");
   background-position: center;
   background-size: cover;
   margin-bottom: -21px;
 }
 
+
 .bangkokdetail {
   margin-left: 20px;
+  .txtxs {
+    font-size: 8px;
+  }
+  .txtm {
+    font-size: 8px;
+  }
 }
 
 
 .bangkoklist {
   margin: 20px 0;
+  .txts {
+    font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
 }
 
 .special {
   background-color: #f7c23c;
   text-align: center;
   padding: 40px;
+  .txts {
+    font-size: 11px;
+  }
   
 }
 .specialdetail .whitebrackets {
@@ -636,7 +720,7 @@ img {
 }
 .specialpeople {
   position: relative;
-  bottom: -58px;
+  bottom: -80px;
   background-color: #f7c23c;
   width: 400px;
   margin: 0 auto;
@@ -667,39 +751,46 @@ img {
 }
 
 .specialdetail {
-  padding: 40px 40px 60px;
+  padding: 30px 40px 80px;
   text-align: center;
   color: #fff;
   background-image: url("../images/specialdetail.jpg");
   background-position: center;
   background-size: cover;
+  .txtm {
+    font-size: 12px;
+  }
 }
 
 .learningo {
   text-align: center;
-  padding: 40px 0; 
+  padding: 40px 0 110px; 
     .txt1 {
       margin-bottom: 40px;
     }
-   
+   .txtm {
+     font-size: 10px;
+   }
   }
 
 .message-container {
   margin: 40px auto -20px;;
   width: calc(100% - 40px);
   .learnbox{
-    padding: 20px;
+   padding: 5px;
+    margin-top: 55px;
   }
   p {
   text-align: left;
   margin: 0 0 10px;
+  font-size: 11px;
 }
 }
 
 .contactform {
   background-color: #ebb94d;
   text-align: center;
-  padding: 40px 12%;
+  padding: 40px 14%;
   height: 700px;
 }
 
@@ -741,9 +832,15 @@ input#OF_submit_btn1 {
   max-width: calc(100% - 40px);
   margin: 0 auto;
   text-align: left;
+  .txtm {
+    font-size: 12px;
+  }
+  .txts {
+    font-size: 10px;
+  }
 }
 .panelgroup {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .fa-question-circle {
@@ -758,6 +855,7 @@ color: #23527c;
     border: 1px solid transparent;
     border-color: #ddd;
     position: relative;
+    border-radius: 5px;
   }
 }
  .panelheading:hover{
@@ -772,7 +870,7 @@ color: #23527c;
     right: 30px;
     height: 10px;
     top: 30px;
-   transform: rotate(-135deg);
+   transform: rotate(45deg);
   }
    .panelheading.angle-up::after {
     content: "";
@@ -783,17 +881,20 @@ color: #23527c;
    right: 30px;
    height: 10px;
    top: 30px;
-   transform: rotate(45deg);
+   transform: rotate(-135deg);
   }
   
  
   
   .panelbody {
-    padding: 20px;
+    padding: 35px;
+    margin-top: -20px;
+    
 }
 
 footer {
   background-color: #ececec;
+  padding-top: 2px;
 }
 
 .footerwrap {
@@ -805,12 +906,15 @@ footer {
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 1px;
   font-weight: 300;
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
 
+.copyright1 { 
+  font-size: 1px;
+}
 .pagetop {
   cursor: pointer;
   position: fixed;
