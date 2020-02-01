@@ -524,10 +524,457 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 
 /*------------------タブレット-----------------*/
 
-@media only screen and (max-width: 1199px) and (min-width: 769px)
+@media only screen and (max-width: 991px) and (min-width: 769px)
 {
     
- .cover-text {
+.contactsp {
+    display: none;
+    }
+    
+.contactpc {
+    display: block;
+}
+.conversion .txt1 {
+    font-size: 18px;
+    
+}
+.flowdetailsp {
+  display: none
+}
+.bangkok1 {
+  display: none;
+}
+.bangkok {
+  display: block;
+}
+.specialboxsp {
+  display: none;
+  
+}
+/*------------------sp隠し-----------------*/
+
+}
+
+/*------------------インナー-----------------*/
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  
+    
+.contactsp {
+    display: none;
+    }
+    
+.contactpc {
+    display: block;
+}
+.conversion .txt1 {
+    font-size: 18px;
+    
+}
+.flowdetailsp {
+  display: none
+}
+.bangkok1 {
+  display: none;
+}
+.bangkok {
+  display: block;
+}
+.specialboxsp {
+  display: none;
+  
+}
+/*------------------sp隠し-----------------*/ 
+p {
+    margin: 0 0 10px;
+}
+
+.cover {
+  padding-top: 85px;
+}
+
+.txt1 {
+    font-size: 28px; 
+}
+.txtxs {
+  font-size: 14px;
+}
+.txtm {
+  font-size: 20px;
+}
+
+header .title-logo {
+  
+margin-left: 15px ;}
+
+.subtitle p {
+    font-weight: 600;
+}
+header .contactpc{
+  padding: 10px 55px;
+  margin-top: 10px;
+}
+.contactpc p {
+    margin: 0;
+}
+.conversion {
+  padding: 35px 0 10px;
+}
+
+.conversion p {
+  font-size: 20px;
+}
+code {
+  font-size: 95%;
+}
+
+.conversion .conversionbtn {
+  padding: 30px 310px 15px;
+  margin: 45px auto;
+}
+.conversion .txt1 {
+    font-size: 28px;
+}
+
+.conversion .txtxs {
+  margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.yellow h2 {
+    font-size: 28px;
+}
+
+.introduction .txtm {
+    font-size: 15px;
+}
+
+.content {
+    padding: 20px 0 100px 0;
+}
+
+.aboutbox {
+  margin-top: 15px;
+  padding: 0 240px 0;
+}
+
+.abouttext {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.boxall {
+    padding: 5px 15px;
+}
+
+.boxall .txts {
+    margin-top: 10px;
+}
+
+.aboutsecond {
+    padding: 45px 0 35px;
+}
+
+
+.aboutsecond .txtm {
+    font-size: 15px;
+}
+.aboutsecond .container {
+    display: flex;
+     width: 970px;
+     margin: 0 auto;
+}
+.slidebox {
+  margin: 15px 5px;
+  padding: 30px 30px 20px;
+  width: 32%;
+}
+
+.aboutthird{
+  padding: 40px 0 30px;
+}
+
+
+.aboutthird .txtm {
+    font-size: 16px;
+}
+
+.learning {
+    padding: 55px 0;
+}
+.learning .txtm {
+    font-weight: 300;
+    font-size: 16px;
+}
+.learning .txt1 {
+    margin-bottom: 35px;
+}
+
+.learning .container {
+justify-content: center;
+padding: 5px 0 35px;
+}
+.learning .learningbox {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0 15px;
+}
+
+.container {
+  display: flex;
+  width: 970px;
+   margin: 25px auto;
+}
+
+.learnbox {
+    max-width: 33%;
+    margin: 0 auto;
+    text-align: left
+}
+.learnbox .txtm {
+    font-size: 18px;
+}
+.learnbox .txts {
+    
+    font-size: 15px;
+
+}
+.merit {
+  padding: 30px 20px;
+}
+  .support {
+    padding: 55px 20px 45px;
+    margin: 40px auto;
+  }
+  .support .txtm {
+    font-size: 15px;
+  }
+  .support .txts {
+    font-size: 12px;
+  }
+  
+  .meritbottomtxts {
+    font-size: 12px;
+}
+  .teacher {
+    padding: 60px 210px 25px 210px;
+  }
+  
+  
+  .teacher1 {
+    display: flex;
+  }
+  
+.teacherbox {
+    width: 50%;
+}
+
+.detail {
+  padding: 40px;
+  margin: 0 10px;
+  height: 370px;
+}
+  
+  .detail2 {
+  padding: 40px;
+  margin: 0 10px;
+  height: 370px
+}
+.teacherbox .txts {
+    font-size: 15px;
+}  
+  
+.answer {
+    padding: 40px 0 35px;
+} 
+  
+.client {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55%;
+} 
+  
+.clientpicure-1 {
+  height: 200px;
+}
+.clientpicure-2{
+  height: 200px;
+} 
+
+.clientpicure-3{
+  height: 200px;
+}
+
+.answer .txtxs {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.clientvoice {
+    padding-left: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.class {
+  margin-right: 30px;
+}
+
+.class{
+padding: 40px 0 110px
+}
+
+.class .txt1 {
+  margin-bottom: 10px;
+}
+.class .txts {
+  font-size: 12px;
+}
+
+.class .classlist {
+    margin-top: 55px;
+    padding-left: 0;
+    padding-right:  0;
+    margin-bottom: -30px;
+    margin-right: 30px;
+}
+
+
+.class .classbox {
+    margin: 0 auto;
+    display: flex;
+}
+.class .classwrap {
+    margin: 0;
+    width: 370px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.class .classbox .txts {
+    font-size: 16px;
+}
+.flow {
+  padding: 20px 40px 30px;
+}
+
+
+.flowbox {
+    max-width: 100%;
+    margin: 0 -20px;
+    padding: 10px 35px;
+    display: flex;
+}
+
+.bangkok {
+  padding: 80px 80px;
+  margin-bottom: -10px;
+}
+.bangkok .txt1 {
+    font-size: 22px;
+}
+.bangkok .txtxs {
+    font-size: 12px;
+}
+.bangkok .txts {
+    font-size: 12px;
+}
+.bangkok .txtm {
+    font-size: 16px;
+}
+
+.special {
+    padding: 45px;
+}
+
+.specialbox {
+    margin: 55px 60px 0px;
+    padding: 55px 0 20px;
+    display: block;
+}
+.specialbox .txts {
+  font-size: 14px;
+}
+.tokuten {
+    padding: 0;
+    margin: 15px 18px;
+  
+}
+.specialdetail {
+    padding: 50px 150px 60px;
+}
+
+.specialdetail .txt1 {
+    margin-bottom: 20px;
+}
+
+.specialdetail .txtm {
+    font-size: 16px;
+}
+.learningo {
+  padding: 40px 150px 125px;
+}
+
+
+.learningo .txtm {
+    font-size: 16px;
+}
+
+
+
+
+.message-container {
+    margin: 40px auto -20px;
+    width: calc(100% - 40px);
+    display: flex;
+}
+  
+.message-container .learnbox {
+    padding: 5px;
+    margin-top: 0;
+    width: 50%;
+    margin-right: 30px;
+}
+.message-container p {
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.contactform {
+    padding: 40px 19%;
+}
+.question {
+    padding: 40px 10%;
+}
+.questionlist .txtm {
+    font-size: 14px;
+}
+
+.questionlist .txts {
+    font-size: 12px;
+}
+.panelbody {
+    padding: 20px;
+}
+
+    .questionlist .txtm {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.panel .panelheading {
+    padding: 17px 20px;
+}
+
+
+
+}
+    
+@media only screen and  (min-width: 1200px) {
+     .cover-text {
   left: 335px;
  }
     
@@ -554,6 +1001,391 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 .specialboxsp {
   display: none;
   
+}
+/*------------------sp隠し-----------------*/
+p {
+    margin: 0 0 10px;
+}
+
+.cover {
+  padding-top: 85px;
+}
+
+.txt1 {
+    font-size: 28px; 
+}
+.txtxs {
+  font-size: 14px;
+}
+.txtm {
+  font-size: 20px;
+}
+
+header .title-logo {
+  
+margin-left: 15px ;}
+
+.subtitle p {
+    font-weight: 600;
+}
+header .contactpc{
+  padding: 10px 55px;
+  margin-top: 10px;
+}
+.contactpc p {
+    margin: 0;
+}
+.conversion {
+  padding: 35px 0 10px;
+}
+
+.conversion p {
+  font-size: 20px;
+}
+code {
+  font-size: 95%;
+}
+
+.conversion .conversionbtn {
+  padding: 30px 310px 15px;
+  margin: 45px auto;
+}
+.conversion .txt1 {
+    font-size: 28px;
+}
+
+.conversion .txtxs {
+  margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.yellow h2 {
+    font-size: 28px;
+}
+
+.introduction .txtm {
+    font-size: 15px;
+}
+
+.content {
+    padding: 20px 0 100px 0;
+}
+
+.aboutbox {
+  margin-top: 15px;
+  padding: 0 240px 0;
+}
+
+.abouttext {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.boxall {
+    padding: 5px 15px;
+}
+
+.boxall .txts {
+    margin-top: 10px;
+}
+
+.aboutsecond {
+    padding: 45px 0 35px;
+}
+
+
+.aboutsecond .txtm {
+    font-size: 15px;
+}
+.aboutsecond .container {
+    display: flex;
+     width: 970px;
+     margin: 0 auto;
+}
+.slidebox {
+  margin: 15px 5px;
+  padding: 30px 30px 20px;
+  width: 32%;
+}
+
+.aboutthird{
+  padding: 40px 0 30px;
+}
+
+
+.aboutthird .txtm {
+    font-size: 16px;
+}
+
+.learning {
+    padding: 55px 0;
+}
+.learning .txtm {
+    font-weight: 300;
+    font-size: 16px;
+}
+.learning .txt1 {
+    margin-bottom: 35px;
+}
+
+.learning .container {
+justify-content: center;
+padding: 5px 0 35px;
+}
+.learning .learningbox {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0 15px;
+}
+
+.container {
+  display: flex;
+  width: 970px;
+   margin: 25px auto;
+}
+
+.learnbox {
+    max-width: 33%;
+    margin: 0 auto;
+    text-align: left
+}
+.learnbox .txtm {
+    font-size: 18px;
+}
+.learnbox .txts {
+    
+    font-size: 15px;
+
+}
+.merit {
+  padding: 30px 20px;
+}
+  .support {
+    padding: 55px 20px 45px;
+    margin: 40px auto;
+  }
+  .support .txtm {
+    font-size: 15px;
+  }
+  .support .txts {
+    font-size: 12px;
+  }
+  
+  .meritbottomtxts {
+    font-size: 12px;
+}
+  .teacher {
+    padding: 60px 210px 25px 210px;
+  }
+  
+  
+  .teacher1 {
+    display: flex;
+  }
+  
+.teacherbox {
+    width: 50%;
+}
+
+.detail {
+  padding: 40px;
+  margin: 0 10px;
+  height: 370px;
+}
+  
+  .detail2 {
+  padding: 40px;
+  margin: 0 10px;
+  height: 370px
+}
+.teacherbox .txts {
+    font-size: 15px;
+}  
+  
+.answer {
+    padding: 40px 0 35px;
+} 
+  
+.client {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55%;
+} 
+  
+.clientpicure-1 {
+  height: 200px;
+}
+.clientpicure-2{
+  height: 200px;
+} 
+
+.clientpicure-3{
+  height: 200px;
+}
+
+.answer .txtxs {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.clientvoice {
+    padding-left: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.class {
+  margin-right: 30px;
+}
+
+.class{
+padding: 40px 0 110px
+}
+
+.class .txt1 {
+  margin-bottom: 10px;
+}
+.class .txts {
+  font-size: 12px;
+}
+
+.class .classlist {
+    margin-top: 55px;
+    padding-left: 0;
+    padding-right:  0;
+    margin-bottom: -30px;
+    margin-right: 30px;
+}
+
+
+.class .classbox {
+    margin: 0 auto;
+    display: flex;
+}
+.class .classwrap {
+    margin: 0;
+    width: 370px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.class .classbox .txts {
+    font-size: 16px;
+}
+.flow {
+  padding: 20px 40px 30px;
+}
+
+
+.flowbox {
+    max-width: 100%;
+    margin: 0 -20px;
+    padding: 10px 35px;
+    display: flex;
+}
+
+.bangkok {
+  padding: 80px 80px;
+  margin-bottom: -10px;
+}
+.bangkok .txt1 {
+    font-size: 22px;
+}
+.bangkok .txtxs {
+    font-size: 12px;
+}
+.bangkok .txts {
+    font-size: 12px;
+}
+.bangkok .txtm {
+    font-size: 16px;
+}
+
+.special {
+    padding: 45px;
+}
+
+.specialbox {
+    margin: 55px 60px 0px;
+    padding: 55px 0 20px;
+    display: block;
+}
+.specialbox .txts {
+  font-size: 14px;
+}
+.tokuten {
+    padding: 0;
+    margin: 15px 18px;
+  
+}
+.specialdetail {
+    padding: 50px 150px 60px;
+}
+
+.specialdetail .txt1 {
+    margin-bottom: 20px;
+}
+
+.specialdetail .txtm {
+    font-size: 16px;
+}
+.learningo {
+  padding: 40px 150px 125px;
+}
+
+
+.learningo .txtm {
+    font-size: 16px;
+}
+
+
+
+
+.message-container {
+    margin: 40px auto -20px;
+    width: calc(100% - 40px);
+    display: flex;
+}
+  
+.message-container .learnbox {
+    padding: 5px;
+    margin-top: 0;
+    width: 50%;
+    margin-right: 30px;
+}
+.message-container p {
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.contactform {
+    padding: 40px 19%;
+}
+.question {
+    padding: 40px 10%;
+}
+.questionlist .txtm {
+    font-size: 14px;
+}
+
+.questionlist .txts {
+    font-size: 12px;
+}
+.panelbody {
+    padding: 20px;
+}
+
+    .questionlist .txtm {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.panel .panelheading {
+    padding: 17px 20px;
 }
 
 }

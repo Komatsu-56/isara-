@@ -872,7 +872,7 @@ color: #23527c;
     top: 30px;
    transform: rotate(45deg);
   }
-   .panelheading.angle-up::after {
+   .panelheading .active::after {
     content: "";
     position: absolute;
     border-right: 3px solid #ddd;
@@ -884,7 +884,7 @@ color: #23527c;
    transform: rotate(-135deg);
   }
   
- 
+
   
   .panelbody {
     padding: 35px;
