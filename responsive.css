@@ -287,7 +287,7 @@ padding: 20px 0 22px;
 }
 .panelgroup .panelheading {
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #fef5e0;
   border-color: #ddd;
   padding: 10px 15px;
 }
@@ -350,11 +350,11 @@ padding: 20px 0 22px;
 }
 
 .special {
-  padding: 25px 50px 40px 50px;
+  padding: 25px 20px 40px 20px;
 }
 
 .special .txts {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .specialsp {
@@ -370,7 +370,7 @@ padding: 20px 0 22px;
 }
 
 .specialpeople {
-  bottom: -75px;
+  bottom: -40px;
 }
 
 
@@ -518,7 +518,14 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   padding-bottom: 25px;
   margin-top: 5px;
 }
-
+.panelheading1::after {
+    border-right: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
+.panelheading1.active::after {
+    border-right: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
 
 }
 
@@ -968,7 +975,6 @@ padding: 40px 0 110px
 .panel .panelheading {
     padding: 17px 20px;
 }
-
 
 
 }

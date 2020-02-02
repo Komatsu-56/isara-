@@ -1,23 +1,18 @@
 $(function(){
   
   $('.panelbody').hide();
+  $('.panelbody1').hide();
+  
   
   $('.panelheading').click(function(){
   
    
-   $(this).next('.panelbody').slideToggle();
+   $(this).next('.panelbody,.panelbody1').slideToggle();
    $(this).toggleClass('active');
    
 });
-
- $('.panelbody1').hide();
   
-  $('.panelheading').click(function(){
-   
-   $(this).next('.panelbody1').slideToggle();
-    $(this).toggleClass('active');
-   
-});
+
 
    var topBtn = $('.pagetop');
       topBtn.hide();
