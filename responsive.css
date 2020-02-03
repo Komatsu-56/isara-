@@ -1,4 +1,46 @@
+@media screen and (max-width: 479px) {
+ 
+   p {
+    margin: 0 0 10px;
+}
+.txt1 {
+    font-size: 18px;
+    font-weight: 600;
+}
 
+
+  header .logo img {
+    width: 90px;
+}
+.txtxs {
+    font-size: 10px;
+}
+.cover {
+  height: auto;
+  padding-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+.cover-text1 p {
+    margin-bottom: 0;
+}
+.mainlogo {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.conversion {
+    padding: 15px;
+}
+
+.conversion a {
+  display: inline-block;
+}
+.conversion .conversionbtn{
+    padding: 0;
+}
+
+}
 /*-------------------スマホ-------------------*/
 
 @media screen and (max-width: 768px)
