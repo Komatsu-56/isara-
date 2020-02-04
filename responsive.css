@@ -1,46 +1,4 @@
-@media screen and (max-width: 479px) {
- 
-   p {
-    margin: 0 0 10px;
-}
-.txt1 {
-    font-size: 18px;
-    font-weight: 600;
-}
 
-
-  header .logo img {
-    width: 90px;
-}
-.txtxs {
-    font-size: 10px;
-}
-.cover {
-  height: auto;
-  padding-top: 25px;
-  margin-bottom: 0;
-  padding-bottom: 5px;
-}
-.cover-text1 p {
-    margin-bottom: 0;
-}
-.mainlogo {
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.conversion {
-    padding: 15px;
-}
-
-.conversion a {
-  display: inline-block;
-}
-.conversion .conversionbtn{
-    padding: 0;
-}
-
-}
 /*-------------------スマホ-------------------*/
 
 @media screen and (max-width: 768px)
@@ -1436,4 +1394,283 @@ padding: 40px 0 110px
     padding: 17px 20px;
 }
 
+}
+
+@media screen and (max-width: 479px) {
+ 
+   p {
+    margin: 0 0 10px;
+}
+.txt1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+  header .logo img {
+    width: 90px;
+}
+.txtxs {
+    font-size: 10px;
+}
+.cover {
+  height: auto;
+  padding-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+.cover-text1 p {
+    margin-bottom: 0;
+}
+.mainlogo {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.conversion {
+    padding: 15px 0;
+}
+
+.conversion a {
+  display: block;
+}
+.conversion .conversionbtn{
+    padding: 20px 120px;
+    margin: 30px 0;
+}
+.conversion .txt1{
+  font-size: 18px;
+}
+
+.boxall {
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.aboutsecond {
+    padding: 30px 30px 42px;
+}
+
+.slidebox {
+    width: 100%;
+    margin: 10px 0 0 ;
+}
+
+.aboutthird {
+    padding: 20px ;
+}
+
+.conversion .txtxs {
+    font-size: 10px;
+    margin-bottom: -25px;
+}
+
+.conversion p {
+  margin-bottom: 0;
+}
+
+.sns-list {
+  display: flex;
+   padding-top: 25px;
+  margin-bottom: -25px;
+}
+
+.sns-list a {
+  margin-right: 5px;
+}
+
+.yellow h2 {
+    font-size: 20px;
+}
+.introduction .txtm {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.aboutbox {
+    padding: 10px 50px 20px;
+    margin-top: 20px;
+}
+.about {
+    padding: 0 0 80px 0;
+}
+
+.learning .learningbox img {
+    width: 130%;
+}
+.learning .txt1 {
+    margin-top: 30px;
+}
+
+learning .container {
+    padding: 0 60px;
+}
+.container {
+    margin-top: 15px;
+}
+
+
+.yellow {
+    max-width: calc(100% - 20px);
+}
+
+.merit .yellow {
+    margin: 15px auto -10px;
+}
+
+.learnfromfreelancer,.learnfromprojects, .actuallyfree {
+  width: 95%;
+}
+
+.merit .txtm {
+    font-size: 16px;
+}
+
+.merit .txts {
+    font-size: 12px;
+}
+.container .learnbox {
+    margin-bottom: 20px;
+}
+
+.support {
+    margin: 35px auto 20px;
+}
+
+.support .txts {
+    font-size: 8px;
+}
+
+.support .txt1 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+
+.teacher {
+    padding: 55px 5px 20px;
+}
+
+.detail {
+  padding: 40px 10px 10px 10px;
+}
+.detail2 {
+  padding: 40px 10px 10px 10px;
+}
+.detail2 .texleft {
+  margin-top: 40px
+}
+
+
+.teacherbox .txts {
+    font-size: 12px;
+}
+
+.circle1 {
+    font-size: 13px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  margin-top: 15px;
+}
+
+.why {
+  padding: 0;
+}
+.why h2 {
+  font-size: 14px;
+}
+.why:after {
+    top: 35px;
+}
+
+.whitebrackets {
+    padding: 35px 30px 15px;
+}
+.answer {
+    padding: 25px 0 25px;
+}
+.answer .txts {
+  font-size: 13px;
+}
+
+.answer .txt1 {
+    margin-bottom: 10px;
+}
+
+.clientpicure-1,.clientpicure-2,.clientpicure-3{
+    height: 150px;
+    width: 400px;
+}
+
+.clientpicure-2{
+    height: 150px;
+    width: 355px;
+}
+
+.clientpicure-3{
+    height: 150px;
+    width: 400px;
+}
+
+
+.client {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 20px 0 10px;
+}
+.clientvoice {
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.class .classwrap {
+    margin: 50px 0 60px;
+    padding: 0 ;
+}
+
+.class .classbox .txts {
+    font-size: 12px;
+}
+.class {
+    padding: 20px 0 25px;
+}
+
+.flow {
+    padding: 25px 40px 5px;
+}
+
+.flowdetailsp {
+    padding: 0px 15px 40px;
+    margin-top: 15px;
+}
+.bangkok1 {
+    padding: 20px 15px 45px;
+}
+.bangkoklist .txts {
+    font-size: 12px;
+}
+.bangkokdetail .txtm {
+    font-size: 15px;
+}
+.special {
+    padding: 10px 15px 35px 14px;
+}
+.specialpeople {
+    bottom: -50px;
+}
+.specialsp {
+    margin-top: 20px;
+    padding: 30px 30px 50px;
+}
+.circle2 {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+}
+.specialboxsp {
+    display: flex;
+    justify-content: space-between;
+}
 }
