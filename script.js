@@ -31,7 +31,7 @@ $(function(){
    });
    
    
-   $('.startpoint').click(function(){
+   $('.startpoint,.conversionbtn').click(function(){
 	    	var contactPadding = 40;
         var targetTop = $('.contactform').offset().top;
         $('html,body').animate({
@@ -39,5 +39,6 @@ $(function(){
         }, 500);
         return false;
     });
+    
    
 });
