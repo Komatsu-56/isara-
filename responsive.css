@@ -288,7 +288,7 @@ padding: 20px 0 22px;
 .panelgroup .panelheading {
   color: #333;
   background-color: #fef5e0;
-  border-color: #ddd;
+  
   padding: 10px 15px;
 }
 
@@ -975,7 +975,9 @@ padding: 40px 0 110px
 .panel .panelheading {
     padding: 17px 20px;
 }
-
+.why {
+    padding: 40px 220px 15px;
+}
 
 }
     
@@ -1183,11 +1185,14 @@ padding: 5px 0 35px;
 }
   .teacher {
     padding: 60px 210px 25px 210px;
+}
   }
   
   
   .teacher1 {
     display: flex;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
 .teacherbox {
@@ -1392,6 +1397,9 @@ padding: 40px 0 110px
 }
 .panel .panelheading {
     padding: 17px 20px;
+}
+.why {
+    padding: 40px 220px 15px;
 }
 
 }
@@ -1740,4 +1748,63 @@ form#OF_form1 {
     padding-top: 10px;
    
 }
+}
+
+@media only screen and (max-width: 375px) {
+  .conversion .conversionbtn {
+    padding: 20px 60px;
+}
+.aboutbox {
+    padding: 10px;
+   
+}
+.boxall {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.box {
+    padding: 6px;
+}
+
+.support {
+    padding: 10px;
+}
+
+.teacherbox .txts {
+    font-size: 12px;
+    font-weight: normal !important; 
+    font-family: auto;
+}
+.whitebrackets {
+    max-width: calc(100% - 10px);
+}
+
+.specialpeople {
+   width: 250px;
+}
+.specialright {
+    margin-left: 15px;
+}
+
+.questionlist .txtm {
+    font-size: 14px;
+}
+
+.questionlist .panelgroup .panel .panelheading {
+    padding: 5px 20px;
+}
+.panelheading::after {
+  
+    right: 15px;
+    width: 5px;
+    height: 5px;
+}
+.panelheading.active::after {
+    width: 5px;
+    right: 15px;
+    height: 5px;
+    top: 15px;
+}
+  
 }

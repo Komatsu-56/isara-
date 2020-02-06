@@ -19,7 +19,7 @@ header {
   background-color: #fff;
   width: 100%;
   height: 75px;
-  margin-top: -21px; }
+  margin-top: -23px; }
   header .title {
     width: 100%;
     position: relative; }
@@ -677,7 +677,9 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   padding: 10px;
   margin-bottom: 25px;
   border-radius: 5px;
-  height: 55px; }
+  height: 55px; 
+  border: none;
+}
 
 form#OF_form1 textarea {
   height: 100px; }
@@ -779,3 +781,4 @@ footer {
 
 .fa-chevron-up {
   font-size: 30px; }
+
