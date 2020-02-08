@@ -1410,6 +1410,11 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   header .logo img {
     width: 90px;
 }
+.subtitle {
+    position: absolute;
+    top: -13px;
+    left: 8px;
+}
 .txtxs {
     font-size: 10px;
 }
