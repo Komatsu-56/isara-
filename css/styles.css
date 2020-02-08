@@ -221,7 +221,7 @@ code {
   background-color: #fff;
   border: 2px solid #ebb94d;
   max-width: calc(100% - 40px);
-  padding: 10px 130px 0; }
+   }
 
 .boxall {
   display: flex;
@@ -719,7 +719,7 @@ input#OF_submit_btn1 {
   .panel .panelheading {
     padding: 0 20px;
     border: 1px solid transparent;
-    border-color: #ddd;
+    
     position: relative;
     border-radius: 5px; }
 
