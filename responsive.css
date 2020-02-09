@@ -72,11 +72,12 @@ code {
 }
 
 .conversion .conversionbtn {
-  padding: 30px 310px 15px;
+  padding: 30px 310px 30px;
   margin: 45px auto;
+  max-width: 1028px
 }
 .conversion .txt1 {
-    font-size: 28px;
+    font-size: 27px;
 }
 
 .conversion .txtxs {
@@ -445,6 +446,10 @@ padding: 40px 0 110px
   display: none;
   
 }
+.brsp {
+     display: none;
+ }
+
 /*------------------sp隠し-----------------*/ 
 p {
     margin: 0 0 10px;
@@ -490,11 +495,12 @@ code {
 }
 
 .conversion .conversionbtn {
-  padding: 30px 310px 15px;
+padding: 20px 310px 20px;
   margin: 45px auto;
 }
 .conversion .txt1 {
-    font-size: 28px;
+    font-size: 19px;
+    margin: 10px 40px;
 }
 
 .conversion .txtxs {
@@ -885,14 +891,15 @@ padding: 40px 0 110px
     display: block;
     }
     .contactsp img {
-        width: 25px;
-        margin: -8px auto -5px;
+        width: 15px;
+        margin: 0 auto;
         display: block;
     }
     .contactsp a {
       color: #fff;
-      font-size: 12px;
+      font-size: 11px;
       text-decoration: none;
+      padding-top: 2px;
     }
     .contactsp a:hover {
       text-decoration: underline;
@@ -914,8 +921,7 @@ padding: 40px 0 110px
     padding: 5px 0 0 0;
 }
  .conversion .conversionbtn {
-    padding: 0px 200px 35px;
-    
+    padding: 15px 105px 15px;
  }
  .brsp {
      display: block;
@@ -1441,7 +1447,7 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
   display: block;
 }
 .conversion .conversionbtn{
-    padding: 20px 120px;
+    padding: 20px 80px;
     margin: 30px 0;
 }
 .conversion .txt1{

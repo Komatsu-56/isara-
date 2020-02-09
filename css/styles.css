@@ -103,7 +103,7 @@ header {
     border-radius: 50px;
     text-decoration: none;
     color: #fff;
-    padding: 10px 280px;
+    padding: 25px 200px;
     margin: 10px 40px; }
   .conversion .txtxs {
     font-weight: 600;
@@ -281,16 +281,21 @@ code {
 
 .learning {
   text-align: center;
-  padding: 40px 0; }
+  padding: 40px 0; 
+  overflow: hidden;
+}
   .learning .container {
     display: flex;
-    padding: 40px 0; }
+    padding: 40px 0;
+    }
   .learning .learningbox {
     margin-right: 15px;
     margin-left: 15px;
     padding: 0 15px; }
   .learning .learningbox img {
-    width: 180px; }
+    width: 180px;
+    max-width: 100%;
+    height: auto;}
 
 .merit {
   text-align: center;
@@ -722,7 +727,10 @@ input#OF_submit_btn1 {
     
     position: relative;
     border-radius: 5px; }
-
+  
+ .question .panel .panelheading {
+  border-color: #ddd;
+  }
 .panelheading:hover {
   text-decoration: underline; }
 
@@ -775,10 +783,11 @@ footer {
   cursor: pointer;
   position: fixed;
   bottom: 80px;
-  right: 5px;
+  right: 10px;
   background-color: #ececec;
-  padding: 20px; }
+  padding: 10px;
+  z-index: 1;}
 
 .fa-chevron-up {
-  font-size: 30px; }
+  font-size: 20px; }
 
