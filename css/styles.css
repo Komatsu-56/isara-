@@ -588,7 +588,9 @@ img {
   margin-bottom: -21px; }
 
 .bangkokdetail {
-  margin-left: 20px; }
+  width: 1170px;
+    margin: 0 auto;
+   }
   .bangkokdetail .txtxs {
     font-size: 8px; }
   .bangkokdetail .txtm {
@@ -708,6 +710,7 @@ input#OF_submit_btn1 {
     margin-bottom: 40px; }
 
 .questionlist {
+  width: 1170px;
   max-width: calc(100% - 40px);
   margin: 0 auto;
   text-align: left; }
