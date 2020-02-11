@@ -309,10 +309,16 @@ padding: 40px 0 110px
 
 
 .flowbox {
+    width: 1170px;
     max-width: 100%;
-    margin: 0 -20px;
+    margin: 0 auto;
     padding: 10px 35px;
     display: flex;
+}
+.flowline {
+    max-width: 100%;
+    margin: 0 auto;
+    width: auto;
 }
 
 .bangkok {
@@ -335,18 +341,27 @@ padding: 40px 0 110px
 .special {
     padding: 45px;
 }
+.specialpeople {
+ 
+  bottom: -30px;
+ }
 
+.special .txts {
+    font-size: 16px;
+}
 .specialbox {
     margin: 55px 10px 0px;
     padding: 55px 0 20px;
     display: block;
+    width: 1170px;
+    margin: 0 auto;
 }
 .specialbox .txts {
   font-size: 14px;
 }
 .tokuten {
     padding: 0;
-    margin: 15px 18px;
+    margin: 15px 60px;
   
 }
 .specialdetail {
@@ -395,19 +410,18 @@ padding: 40px 0 110px
 .question {
     padding: 40px 10%;
 }
-.questionlist .txtm {
-    font-size: 14px;
-}
+
 
 .questionlist .txts {
-    font-size: 12px;
+    font-size: 16px;
 }
 .panelbody {
     padding: 20px;
+    margin-top: 0px;
 }
 
     .questionlist .txtm {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -657,10 +671,8 @@ padding: 5px 0 35px;
 .client {
     width: 970px;
     padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 55%;
+    margin-left: 0;
+    width: 70%;
 } 
   
 .clientpicure-1 {
@@ -753,14 +765,24 @@ padding: 40px 0 110px
     padding: 45px;
 }
 
+.specialpeople {
+ 
+  bottom: -80px;
+ }
 .specialbox {
-    margin: 55px 60px 0px;
+    margin: 55px 10px 0px;
     padding: 55px 0 20px;
     display: block;
 }
 .specialbox .txts {
   font-size: 14px;
 }
+
+.special .txts {
+    font-size: 14px;
+}
+
+
 .tokuten {
     padding: 0;
     margin: 15px 18px;
@@ -812,25 +834,33 @@ padding: 40px 0 110px
 .question {
     padding: 40px 10%;
 }
-.questionlist .txtm {
-    font-size: 14px;
-}
 
 .questionlist .txts {
-    font-size: 12px;
+    font-size: 16px;
 }
 .panelbody {
     padding: 20px;
+    margin-top: 0px;
 }
 
     .questionlist .txtm {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
 }
 .panel .panelheading {
     padding: 17px 20px;
 }
+.panelheading::after {
+    top: 25px;
+}
+.panelheading.active::after {
+    top: 25px;
+}
+
+
+
+
 .why {
     padding: 40px 220px 15px;
 }
@@ -921,13 +951,13 @@ padding: 40px 0 110px
     padding: 5px 0 0 0;
 }
  .conversion .conversionbtn {
-    padding: 15px 105px 15px;
+    padding: 15px 100px 15px;
  }
  .brsp {
      display: block;
  }
  .conversion .txt1 {
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0;
      margin-bottom: -10px;
 }
@@ -965,7 +995,11 @@ padding: 40px 0 110px
     margin-top: 0px;
 }
 .aboutbox {
-  padding: 10px 50px;
+  padding: 10px;
+}
+
+.boxall {
+  flex-wrap: wrap;
 }
 .box {
   padding: 5px;
@@ -1095,6 +1129,8 @@ margin: 0 auto;
   margin-top: 28px;
 }
 
+
+
 .clientvoice {
   margin-top: -20px;
 }
@@ -1167,9 +1203,14 @@ padding: 20px 0 22px;
     text-decoration: underline;
   }
 
+
 .panelheading::after{
     top: 15px;
-    right: 18px;
+    right: 10px;
+  }
+  .panelheading.active::after{
+    top: 15px;
+    right: 10px;
   }
 
 .panelgroup .paneltitle {
@@ -1241,8 +1282,12 @@ padding: 20px 0 22px;
 
 .specialpeople {
   bottom: -40px;
+  width: 250px;
+  width: 50%;
 }
-
+.specialpeople .txt1 {
+  font-size: 18px;
+}
 
 .specialboxsp {
 
@@ -1255,7 +1300,8 @@ padding: 20px 0 22px;
 
 
 .specialleft {
-  width: 30%;
+  width: 20%;
+  margin-right: 15px;
 }
 .circle2 {
   width: 80px;
@@ -1328,7 +1374,7 @@ padding: 20px 0 22px;
 }
 
 .questionlist .txtm {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contactform h2 {
@@ -1362,7 +1408,8 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 
 .questionlist .panelgroup .panel .panelheading {
   background-color:  #fff;
-  padding: 6px 10px
+  padding: 10px 10px;
+  margin-bottom: 15px;
 }
 
 .questionlist .panelgroup .panel .panelheading h4 {
@@ -1372,9 +1419,10 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 
 .questionlist .txts {
     font-size: 14px;
+    margin: 0;
 }
 .questionlist .panelgroup .panel .panelbody {
-  padding: 25px;
+  padding: 20px;
 }
 
 .footerwrap {
@@ -1451,11 +1499,12 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
     margin: 30px 0;
 }
 .conversion .txt1{
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .boxall {
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
 }
 
@@ -1497,7 +1546,7 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
 }
 
 .aboutbox {
-    padding: 10px 50px 20px;
+    padding: 15px;
     margin-top: 20px;
 }
 .about {
@@ -1667,10 +1716,15 @@ learning .container {
 }
 .specialpeople {
     bottom: -50px;
+    width: 70%;
 }
 .specialsp {
     margin-top: 20px;
     padding: 30px 30px 50px;
+}
+.specialleft {
+    width: 15%;
+    margin-right: 25px;
 }
 .circle2 {
     width: 60px;
@@ -1742,7 +1796,7 @@ form#OF_form1 {
 }
 .questionlist .panelgroup .panel .panelheading {
     background-color: #fff;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 3px;
 }
 .copyright {
     margin-top: 5px;
@@ -1795,7 +1849,7 @@ form#OF_form1 {
 }
 
 .questionlist .panelgroup .panel .panelheading {
-    padding: 5px 20px;
+    padding: 5px 20px 5px 5px;
 }
 .panelheading::after {
   
@@ -1815,5 +1869,15 @@ form#OF_form1 {
 .conversion .txt1 {
     font-size: 17px;
 }
+
+.clientpicure-1, .clientpicure-3 {
+    height: 100px;
+    width: 400px;
+}
+.clientpicure-2 {
+    height: 100px;
+    width: 350px;
+}
+
 }
 

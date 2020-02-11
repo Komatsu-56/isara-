@@ -220,12 +220,15 @@ code {
   display: inline-block;
   background-color: #fff;
   border: 2px solid #ebb94d;
+  width: 1170px;
   max-width: calc(100% - 40px);
    }
 
 .boxall {
   display: flex;
-  padding: 10px 50px; }
+ 
+  justify-content: center;
+}
   .boxall .txts {
     font-size: 10px; }
 
@@ -448,7 +451,7 @@ code {
 .client {
   display: flex;
   max-width: calc(100% - 40px);
-  margin: 0 auto;
+  margin-left: auto;
   padding: 20px 0; }
 
 .clientpicure-1 {
@@ -562,7 +565,8 @@ code {
   padding: 10px; }
 
 .flowline {
-  width: calc(100% - 300px); }
+    width: calc(100% - 300px);
+  }
 
 img {
   vertical-align: middle; }
@@ -602,7 +606,7 @@ img {
   text-align: center;
   padding: 40px; }
   .special .txts {
-    font-size: 11px; }
+    font-size: 14px; }
 
 .specialdetail .whitebrackets {
   padding: 31px 30px; }
@@ -612,9 +616,9 @@ img {
 
 .specialpeople {
   position: relative;
-  bottom: -80px;
+  bottom: -60px;
   background-color: #f7c23c;
-  width: 400px;
+  width: 550px;
   margin: 0 auto; }
 
 .specialbox {
@@ -708,9 +712,10 @@ input#OF_submit_btn1 {
   margin: 0 auto;
   text-align: left; }
   .questionlist .txtm {
-    font-size: 12px; }
+    font-size: 16px;
+    margin: 0 15px 0 0;}
   .questionlist .txts {
-    font-size: 10px; }
+    font-size: 14px; }
 
 .panelgroup {
   margin-bottom: 5px; }
@@ -722,7 +727,7 @@ input#OF_submit_btn1 {
   border-color: #ddd;
   border-radius: 5px; }
   .panel .panelheading {
-    padding: 0 20px;
+    padding: 5px 20px;
     border: 1px solid transparent;
     
     position: relative;
@@ -739,10 +744,10 @@ input#OF_submit_btn1 {
   position: absolute;
   border-right: 3px solid #ddd;
   border-bottom: 3px solid #ddd;
-  width: 10px;
+  width: 5px;
   right: 30px;
-  height: 10px;
-  top: 30px;
+  height: 5px;
+  top: 10px;
   transform: rotate(45deg); }
 
 .panelheading.active::after {
@@ -750,14 +755,14 @@ input#OF_submit_btn1 {
   position: absolute;
   border-right: 3px solid #ddd;
   border-bottom: 3px solid #ddd;
-  width: 10px;
+  width: 5px;
   right: 30px;
-  height: 10px;
-  top: 30px;
+  height: 5px;
+  top: 10px;
   transform: rotate(-135deg); }
 
 .panelbody {
-  padding: 35px;
+  padding: 20px;
   margin-top: -20px; }
 
 footer {
