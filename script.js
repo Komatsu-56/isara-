@@ -5,11 +5,12 @@ $(function(){
   
   
   $('.panelheading').click(function(){
-  
-   
+      
    $(this).next('.panelbody,.panelbody1').slideToggle();
-   $(this).toggleClass('active');
-   
+  $(this).toggleClass('active');
+   $('.panelheading').not($(this)).next('.panelbody1').slideUp();
+  $('.panelheading.active').not($(this)).toggleClass('active');
+      
 });
   
 

@@ -8,10 +8,12 @@ body {
   line-height: 1.6;
   background-color: #fff;
   height: 10000px;
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin: 0;
+  max-width: 100%;
   letter-spacing: 1.5px;
-  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif; }
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif; }
 
 header {
   position: fixed;
@@ -21,7 +23,9 @@ header {
   height: 75px;
   margin-top: -23px; }
   header .title {
-    width: 100%;
+   width: 1170px;
+   max-width: 100%;
+   margin: 0 auto;
     position: relative; }
   header .logo {
     float: left;
@@ -103,7 +107,7 @@ header {
     border-radius: 50px;
     text-decoration: none;
     color: #fff;
-    padding: 25px 200px;
+    padding: 25px 150px;
     margin: 10px 40px; }
   .conversion .txtxs {
     font-weight: 600;
@@ -184,7 +188,8 @@ code {
   padding: 5px 0 170px 0; }
 
 .underline {
-  border-bottom: 4px solid #ebb94d; }
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
 
 .about {
   background-color: #fef5e0;
@@ -390,6 +395,7 @@ code {
   border: 3px solid #fff;
   margin: 0 50px 0; }
 
+
 .why {
   padding: 40px 0 15px;
   text-align: center;
@@ -462,6 +468,29 @@ code {
   width: 520px;
   border: solid;
   border-color: #ebb94d; }
+  
+  .take {
+    border: solid;
+    border-color: #ebb94d;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .minami_sato {
+    border: solid;
+    border-color: #ebb94d;
+    width: 250px;
+    height: 250px
+  }
+  .asada {
+    border: solid;
+    border-color: #ebb94d;
+    width: 250px;
+    height: 250px
+  }
+  
+ 
+  
 
 .clientpicure-2 {
   background-image: url("../images/minami_sato.jpg");
@@ -590,6 +619,7 @@ img {
 .bangkokdetail {
   width: 1170px;
     margin: 0 auto;
+    max-width: calc(100% - 40px);
    }
   .bangkokdetail .txtxs {
     font-size: 8px; }
@@ -620,7 +650,7 @@ img {
   position: relative;
   bottom: -60px;
   background-color: #f7c23c;
-  width: 550px;
+  width: 450px;
   margin: 0 auto; }
 
 .specialbox {

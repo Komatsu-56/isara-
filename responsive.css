@@ -72,7 +72,7 @@ code {
 }
 
 .conversion .conversionbtn {
-  padding: 30px 310px 30px;
+  padding: 30px 250px 30px;
   margin: 45px auto;
   max-width: 1028px
 }
@@ -190,6 +190,7 @@ padding: 5px 0 35px;
   .support {
     padding: 55px 20px 45px;
     margin: 40px auto;
+    width: 1170px;
   }
   .support .txtm {
     font-size: 15px;
@@ -232,6 +233,10 @@ padding: 5px 0 35px;
     font-size: 15px;
 }  
   
+.qaicon {
+  width: 800px;
+  margin: 0 auto
+}
 .answer {
     padding: 40px 0 35px;
 } 
@@ -242,19 +247,9 @@ padding: 5px 0 35px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 55%;
 } 
   
-.clientpicure-1 {
-  height: 200px;
-}
-.clientpicure-2{
-  height: 200px;
-} 
 
-.clientpicure-3{
-  height: 200px;
-}
 
 .answer .txtxs {
     font-size: 12px;
@@ -343,7 +338,7 @@ padding: 40px 0 110px
 }
 .specialpeople {
  
-  bottom: -30px;
+  bottom: -40px;
  }
 
 .special .txts {
@@ -364,12 +359,18 @@ padding: 40px 0 110px
     margin: 15px 60px;
   
 }
+.specialpeople {
+  width: 60%;
+ }
+
+
 .specialdetail {
     padding: 50px 150px 60px;
 }
 
 .specialdetail .txt1 {
     margin-bottom: 20px;
+    width: 1170px;
 }
 
 .specialdetail .txtm {
@@ -377,6 +378,8 @@ padding: 40px 0 110px
 }
 .learningo {
   padding: 40px 150px 125px;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 
@@ -396,7 +399,7 @@ padding: 40px 0 110px
 .message-container .learnbox {
     padding: 5px;
     margin-top: 0;
-    width: 50%;
+    
     margin-right: 30px;
 }
 .message-container p {
@@ -428,8 +431,15 @@ padding: 40px 0 110px
 .panel .panelheading {
     padding: 17px 20px;
 }
+
+.panelheading::after {
+    top: 25px;
+}
+.panelheading.active::after {
+    top: 25px;
+}
 .why {
-    padding: 40px 220px 15px;
+    padding: 40px 10px 15px;
 }
 }
 
@@ -509,7 +519,7 @@ code {
 }
 
 .conversion .conversionbtn {
-padding: 20px 310px 20px;
+padding: 20px 250px 20px;
   margin: 45px auto;
 }
 .conversion .txt1 {
@@ -766,7 +776,7 @@ padding: 40px 0 110px
 }
 
 .specialpeople {
- 
+  width: 580px;
   bottom: -80px;
  }
 .specialbox {
@@ -1134,18 +1144,12 @@ margin: 0 auto;
 .clientvoice {
   margin-top: -20px;
 }
-.clientpicure-1 {
-  height: 227px;
-    width: 520px;
+.take,.minami_sato,.asada {
+  height: 200px;
+    width: 200px;
 }
 
-.clientpicure-2 {
-  height: 230px;
-    width: 475px;
-}
-.clientpicure-3 { 
-  height: 225px
-}
+
 
 .class {
   padding: 20px 0 12px;
@@ -1178,6 +1182,11 @@ padding: 20px 0 22px;
   display: block;
   text-align: left;
 }
+.flowdetailsp .panelheading::after {
+    top: 25px;
+}
+
+
 .flow {
   padding: 20px 40px 5px;
 }
@@ -1541,7 +1550,7 @@ form#OF_form1, input#seimei1, input#seimei2, input#mail, textarea {
     font-size: 20px;
 }
 .introduction .txtm {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
@@ -1656,19 +1665,9 @@ learning .container {
     margin-bottom: 10px;
 }
 
-.clientpicure-1,.clientpicure-2,.clientpicure-3{
+.take, .minami_sato, .asada {
+    width: 150px;
     height: 150px;
-    width: 400px;
-}
-
-.clientpicure-2{
-    height: 150px;
-    width: 355px;
-}
-
-.clientpicure-3{
-    height: 150px;
-    width: 400px;
 }
 
 
@@ -1702,6 +1701,8 @@ learning .container {
     padding: 0px 15px 40px;
     margin-top: 15px;
 }
+
+
 .bangkok1 {
     padding: 20px 15px 45px;
 }
@@ -1809,7 +1810,7 @@ form#OF_form1 {
 
 @media only screen and (max-width: 375px) {
   .conversion .conversionbtn {
-    padding: 20px 60px;
+    padding: 20px 50px;
 }
 .aboutbox {
     padding: 10px;
@@ -1863,6 +1864,17 @@ form#OF_form1 {
     height: 5px;
     top: 15px;
 }
+.flowdetailsp .panelgroup .panelheading{
+    padding: 10px 25px 10px 15px;
+}
+
+.take, .minami_sato, .asada {
+    width: 100px;
+    height: 100px;
+}
+
+
+
 .why h2 {
     font-size: 13px;
 }
